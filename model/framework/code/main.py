@@ -53,14 +53,14 @@ X_tsne = tsne_scaler.transform(X_tsne)
 
 # assemble dataset
 columns = [
-    "pca-1",
-    "pca-2",
-    "pca-3",
-    "pca-4",
-    "umap-1",
-    "umap-2",
-    "tsne-1",
-    "tsne-2"
+    "pca_1",
+    "pca_2",
+    "pca_3",
+    "pca_4",
+    "umap_1",
+    "umap_2",
+    "tsne_1",
+    "tsne_2"
 ]
 
 outputs = []
