@@ -1,26 +1,43 @@
-Identifier: eos2db3
-Slug: chemical-space-projections-chemdiv
-Status: In progress
-Title: Chemical space 2D projections against ChemDiv
-Description: This tool performs PCA, UMAP and tSNE projections taking a 100k ChemDiv
+Biomedical Area:
+- Any
+Contributor: miquelduranfrigola
+Deployment:
+- Local
+Description: 'This tool performs PCA, UMAP and tSNE projections taking a 100k ChemDiv
   diversity set as a chemical space of reference. The Ersilia Compound Embeddings
-  as used as descriptors. Four PCA components and two UMAP and tSNE components are
+  are used as descriptors. Four PCA components and two UMAP and tSNE components are
   returned.
-Mode: In-house
-Task: Representation
-Input: Compound
-Input Shape: Single
-Output: Descriptor
-Output Type: Float
-Output Shape: List
-Interpretation: Coordinates of 2D projections, namely PCA, UMAP and tSNE.
-Tag:
-- Embedding
-Publication: https://www.chemdiv.com/catalog/diversity-libraries/representative-diversity-libraries-out-of-1-6m-stock/
-Source Code: https://github.com/ersilia-os/compound-embedding
-License: GPL-3.0-or-later
-S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2db3.zip
-DockerHub: https://hub.docker.com/r/ersiliaos/eos2db3
+
+  '
 Docker Architecture:
 - AMD64
 - ARM64
+DockerHub: https://hub.docker.com/r/ersiliaos/eos2db3
+Identifier: eos2db3
+Incorporation Date: '2024-11-09'
+Input:
+- Compound
+Input Dimension: 1
+Input Shape: Single
+Interpretation: Coordinates of 2D projections, namely PCA, UMAP and tSNE.
+License: GPL-3.0-or-later
+Output:
+- Value
+Output Consistency: Fixed
+Output Dimension: 8
+Publication: https://www.chemdiv.com/catalog/diversity-libraries/representative-diversity-libraries-out-of-1-6m-stock/
+Publication Type: Other
+Publication Year: 2024
+S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2db3.zip
+Slug: chemical-space-projections-chemdiv
+Source: Local
+Source Code: https://github.com/ersilia-os/compound-embedding
+Source Type: Internal
+Status: Ready
+Subtask: Projection
+Tag:
+- Embedding
+Target Organism:
+- Not Applicable
+Task: Representation
+Title: Chemical space 2D projections against ChemDiv
