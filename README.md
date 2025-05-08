@@ -42,14 +42,18 @@ Below are the **Output Columns** of the model:
 - **Source:** `Local`
 - **Source Type:** `Internal`
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos2db3](https://hub.docker.com/r/ersiliaos/eos2db3)
-- **Docker Architecture:** `AMD64`, `ARM64`
+- **Docker Architecture:** `AMD64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2db3.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2db3.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1470`
 - **Environment Size (Mb):** `974`
-- **Image Size (Mb):** `5297.1`
+- **Image Size (Mb):** `5297.96`
 
+**Computational Performance (seconds):**
+- 10 inputs: `119.64`
+- 100 inputs: `110.7`
+- 10000 inputs: `-1`
 
 ### References
 - **Source Code**: [https://github.com/ersilia-os/compound-embedding](https://github.com/ersilia-os/compound-embedding)
