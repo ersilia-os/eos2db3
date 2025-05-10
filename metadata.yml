@@ -37,13 +37,15 @@ Contributor: miquelduranfrigola
 Incorporation Date: '2024-11-09'
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2db3.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos2db3
-Docker Architecture: AMD64
+Docker Architecture:
+  - AMD64
+  - ARM64
 Model Size: 1470.0
 Environment Size: 1540.0
-Image Size: 5299.12
-Computational Performance 1: 114.47
-Computational Performance 2: 104.56
-Computational Performance 3: 106.46
-Computational Performance 4: 878.68
+Image Size: 3203.09
+Computational Performance 1: 120.03
+Computational Performance 2: 109.82
+Computational Performance 3: 111.97
+Computational Performance 4: 939.16
 Computational Performance 5: -1.0
 Docker Pack Method: FastAPI
