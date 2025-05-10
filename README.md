@@ -42,17 +42,17 @@ Below are the **Output Columns** of the model:
 - **Source:** `Local`
 - **Source Type:** `Internal`
 - **DockerHub**: [https://hub.docker.com/r/ersiliaos/eos2db3](https://hub.docker.com/r/ersiliaos/eos2db3)
-- **Docker Architecture:** `AMD64`
+- **Docker Architecture:** `AMD64`, `ARM64`
 - **S3 Storage**: [https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2db3.zip](https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2db3.zip)
 
 ### Resource Consumption
 - **Model Size (Mb):** `1470`
 - **Environment Size (Mb):** `1540`
-- **Image Size (Mb):** `5299.12`
+- **Image Size (Mb):** `3203.09`
 
 **Computational Performance (seconds):**
-- 10 inputs: `114.47`
-- 100 inputs: `106.46`
+- 10 inputs: `120.03`
+- 100 inputs: `111.97`
 - 10000 inputs: `-1`
 
 ### References
