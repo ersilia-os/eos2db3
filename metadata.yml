@@ -39,7 +39,7 @@ S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2db3.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos2db3
 Docker Architecture: AMD64
 Model Size: 1470.0
-Environment Size: 975.0
+Environment Size: 1011.0
 Image Size: 5299.12
 Computational Performance 1: 114.47
 Computational Performance 2: 104.56
