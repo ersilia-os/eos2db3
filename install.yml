@@ -1,6 +1,5 @@
 python: "3.10"
 commands:
-commands:
     - ["conda", "install",  "-c", "conda-forge", "numpy=1.26.4"]
     - ["pip", "scikit-learn", "1.5.2"]
     - ["pip", "umap-learn", "0.5.7"]
