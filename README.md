@@ -4,6 +4,7 @@ This tool performs PCA, UMAP and tSNE projections taking a 100k ChemDiv diversit
 
 This model was incorporated on 2024-11-09.
 
+
 ## Information
 ### Identifiers
 - **Ersilia Identifier:** `eos2db3`
@@ -13,7 +14,7 @@ This model was incorporated on 2024-11-09.
 - **Task:** `Representation`
 - **Subtask:** `Projection`
 - **Biomedical Area:** `Any`
-- **Target Organism:** `Not Applicable`
+- **Target Organism:** `Any`
 - **Tags:** `Embedding`
 
 ### Input
