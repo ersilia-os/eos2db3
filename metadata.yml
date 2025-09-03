@@ -2,10 +2,10 @@ Identifier: eos2db3
 Slug: chemical-space-projections-chemdiv
 Status: Ready
 Title: Chemical space 2D projections against ChemDiv
-Description: This tool performs PCA, UMAP and tSNE projections taking a 100k ChemDiv
-  diversity set as a chemical space of reference. The Ersilia Compound Embeddings
-  are used as descriptors. Four PCA components and two UMAP and tSNE components are
-  returned.
+Description: This tool performs PCA, UMAP and tSNE projections taking a 100k 
+  ChemDiv diversity set as a chemical space of reference. The Ersilia Compound 
+  Embeddings are used as descriptors. Four PCA components and two UMAP and tSNE 
+  components are returned.
 Deployment:
   - Local
 Source: Local
@@ -15,7 +15,6 @@ Subtask: Projection
 Input:
   - Compound
 Input Dimension: 1
-Input Shape: Single
 Output:
   - Value
 Output Dimension: 8
@@ -48,4 +47,5 @@ Computational Performance 2: 114.36
 Computational Performance 3: 113.84
 Computational Performance 4: 926.44
 Computational Performance 5: -1.0
+Input Shape: Single
 Docker Pack Method: FastAPI
