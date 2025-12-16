@@ -2,7 +2,7 @@
 
 This tool performs PCA, UMAP and tSNE projections taking a 100k ChemDiv diversity set as a chemical space of reference. The Ersilia Compound Embeddings are used as descriptors. Four PCA components and two UMAP and tSNE components are returned.
 
-This model was incorporated on 2024-11-09.Last packaged on 2025-11-18.
+This model was incorporated on 2024-11-09.Last packaged on 2025-12-16.
 
 ## Information
 ### Identifiers
@@ -48,12 +48,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `1470`
 - **Environment Size (Mb):** `988`
-- **Image Size (Mb):** `5403.05`
+- **Image Size (Mb):** `5404.27`
 
 **Computational Performance (seconds):**
-- 10 inputs: `64.96`
-- 100 inputs: `53.03`
-- 10000 inputs: `1588.01`
+- 10 inputs: `60.63`
+- 100 inputs: `51`
+- 10000 inputs: `1628.84`
 
 ### References
 - **Source Code**: [https://github.com/ersilia-os/compound-embedding](https://github.com/ersilia-os/compound-embedding)
