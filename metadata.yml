@@ -2,10 +2,13 @@ Identifier: eos2db3
 Slug: chemical-space-projections-chemdiv
 Status: Ready
 Title: Chemical space 2D projections against ChemDiv
-Description: This tool performs PCA, UMAP and tSNE projections taking a 100k 
-  ChemDiv diversity set as a chemical space of reference. The Ersilia Compound 
-  Embeddings are used as descriptors. Four PCA components and two UMAP and tSNE 
-  components are returned.
+Description: Projects a molecule onto a two-dimensional map built from the ChemDiv
+  screening collection, letting a compound be placed visually against a widely used
+  commercial library. Coordinates come from dimensionality reduction fitted to that
+  reference set, so a position expresses similarity to catalogue chemistry rather
+  than any predicted property. Both principal component and neighbour-embedding projections
+  are returned. Positions are only meaningful relative to the fixed reference and
+  cannot be compared across differently trained projections.
 Deployment:
   - Local
 Source: Local
@@ -19,7 +22,8 @@ Output:
   - Value
 Output Dimension: 8
 Output Consistency: Fixed
-Interpretation: Coordinates of 2D projections, namely PCA, UMAP and tSNE.
+Interpretation: Two-dimensional coordinates placing the molecule within the ChemDiv
+  library chemical space.
 Tag:
   - Embedding
 Biomedical Area:
