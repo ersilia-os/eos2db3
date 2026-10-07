@@ -1,6 +1,6 @@
 # Chemical space 2D projections against ChemDiv
 
-Projects a molecule onto a two-dimensional map built from the ChemDiv screening collection, letting a compound be placed visually against a widely used commercial library. Coordinates come from dimensionality reduction fitted to that reference set, so a position expresses similarity to catalogue chemistry rather than any predicted property. Both principal component and neighbour-embedding projections are returned. Positions are only meaningful relative to the fixed reference and cannot be compared across differently trained projections.
+Positions a molecule against the ChemDiv diversity collection, using a 100,000-compound subset of that commercial catalogue as the reference chemical space. Ersilia represents every structure with its own compound embeddings and then applies three reductions fitted to the reference set, returning four principal components alongside a UMAP pair and a t-SNE pair. A position expresses proximity to catalogue chemistry rather than any predicted property, and because the projections are fixed to this reference they cannot be compared with maps trained on another library.
 
 This model was incorporated on 2024-11-09.Last packaged on 2026-03-09.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2024-11-09.Last packaged on 2026-03-09.
 ### Output
 - **Output Dimension:** `8`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Two-dimensional coordinates placing the molecule within the ChemDiv library chemical space.
+- **Interpretation:** Four principal components plus UMAP and t-SNE coordinate pairs placing a molecule in ChemDiv chemical space.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
