@@ -3,7 +3,7 @@
 Positions a molecule against the ChemDiv diversity collection, using a 100,000-compound subset of that commercial catalogue as the reference chemical space. Ersilia represents every structure with its own compound embeddings and then applies three reductions fitted to the reference set, returning four principal components alongside a UMAP pair and a t-SNE pair. A position expresses proximity to catalogue chemistry rather than any predicted property, and because the projections are fixed to this reference they cannot be compared with maps trained on another library.
 
 This model was incorporated on 2024-11-09.
-Last packaged on 2026-03-09.
+Last packaged on 2026-11-19.
 
 ## Information
 ### Identifiers
@@ -50,12 +50,12 @@ Below are the **Output Columns** of the model:
 ### Resource Consumption
 - **Model Size (Mb):** `1470`
 - **Environment Size (Mb):** `1009`
-- **Image Size (Mb):** `5423.93`
+- **Image Size (Mb):** `1343.57`
 
 **Computational Performance (seconds):**
-- 10 inputs: `72.47`
-- 100 inputs: `62.01`
-- 10000 inputs: `1502.98`
+- 10 inputs: `62.77`
+- 100 inputs: `48.39`
+- 10000 inputs: `1422.94`
 
 ### References
 - **Source Code**: [https://github.com/ersilia-os/compound-embedding](https://github.com/ersilia-os/compound-embedding)
