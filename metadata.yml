@@ -44,7 +44,7 @@ Release: v2.0.0
 S3: https://ersilia-models-zipped.s3.eu-central-1.amazonaws.com/eos2db3.zip
 DockerHub: https://hub.docker.com/r/ersiliaos/eos2db3
 Docker Architecture: AMD64
-Apptainer: https://models-sif.s3.eu-north-1.amazonaws.com/eos2db3_v1.sif
+Apptainer: https://models-sif.s3.eu-north-1.amazonaws.com/eos2db3_v2.sif
 Model Size: 1470.0
 Environment Size: 1009.0
 Image Size: 1343.57
